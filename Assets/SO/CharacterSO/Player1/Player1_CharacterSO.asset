@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d2811f62c2b6943a7473daba8f13c5, type: 3}
+  m_Name: Player1_CharacterSO
+  m_EditorClassIdentifier: 
+  gravity: 9.8
+  maxQueueSize: 50
+  maxHealth: 1000
+  groundCheckBox: {fileID: 11400000, guid: 4bec1059056cdc84188e288b2c1f2dc1, type: 2}
+  defaultStateData:
+    startClip: {fileID: 0}
+    startClipSpeed: 0
+    startMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 1
+      gravityScale: 1
+      RespondImmediately: 0
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startMotionTime: 0
+    mainClip: {fileID: -3100369314251171874, guid: 65adc2209ec9c2d4594751a1156660e4, type: 3}
+    mainMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 0
+      gravityScale: 1
+      RespondImmediately: 1
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    loop: 1
+    fixedMainCycleDuration: 0
+    mainClipSpeed: 1
+    endClip: {fileID: 0}
+    endClipSpeed: 0
+    endMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 1
+      gravityScale: 1
+      RespondImmediately: 0
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    endMotionTime: 0
+    SetDirStart: 1
+    ignoreCancelTime: 0
+    UseAttackManager: 1
+    canceltime: 0
+    MinInterruptPriority: 0
+    fxConfigs: []
+  defaultStateType: 1
+  InputWindowTime: 0.7
+  transitionTables:
+  - {fileID: 11400000, guid: cb535d4ed128f0b4d990579e1e0d249b, type: 2}
+  - {fileID: 11400000, guid: 52b3690395b01b24abd4db889eeca211, type: 2}
+  - {fileID: 11400000, guid: 6ce034d73acb8fb47bce5ee23c652594, type: 2}
+  - {fileID: 11400000, guid: e3b42f648a37a6d4095aecc8d7fb2e22, type: 2}
+  - {fileID: 11400000, guid: 37529333a2213384bbec4e76e55368a0, type: 2}
+  - {fileID: 11400000, guid: cd4c1a8d1150da442a16570f1433931f, type: 2}
+  - {fileID: 11400000, guid: 64c6f4a9756384b44ab56ce43ee0eb81, type: 2}
+  - {fileID: 11400000, guid: 58d2a3586d0432b43954117719d0c1aa, type: 2}
+  specialAttacks:
+  - {fileID: 11400000, guid: 7f070b47643bc47498efcdbd4dc12e06, type: 2}
+  - {fileID: 11400000, guid: 4d6ef113197b4ef45af1bf92509aa916, type: 2}
+  hitInfos:
+  - {fileID: 11400000, guid: ee4bbf6964838224a92c32a11115b811, type: 2}
+  - {fileID: 11400000, guid: e2847d38554095a4baaa594832cce7fb, type: 2}
+  deathStateData:
+    startClip: {fileID: 0}
+    startClipSpeed: 0
+    startMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 1
+      gravityScale: 1
+      RespondImmediately: 0
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startMotionTime: 0
+    mainClip: {fileID: 0}
+    mainMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 1
+      gravityScale: 1
+      RespondImmediately: 0
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    loop: 1
+    fixedMainCycleDuration: 0
+    mainClipSpeed: 1
+    endClip: {fileID: 0}
+    endClipSpeed: 0
+    endMotion:
+      maxVelocity: {x: 0, y: 0}
+      useXCoverageWeight: 1
+      useYCoverageWeight: 1
+      gravityScale: 1
+      RespondImmediately: 0
+      acceleration: 10
+      XspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      YspeedMultiplier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    endMotionTime: 0
+    SetDirStart: 1
+    ignoreCancelTime: 0
+    UseAttackManager: 1
+    canceltime: 0
+    MinInterruptPriority: 0
+    fxConfigs: []
+  hitImpactFX: {fileID: 11400000, guid: 36de7ca6474548a41996241f76c087e8, type: 2}
+  comboResetTime: 1.5

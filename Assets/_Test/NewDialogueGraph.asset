@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049dabe3049691d4a81b2ce4498f98ae, type: 3}
+  m_Name: NewDialogueGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - speakerName: 
+    line: "\u4F60\u597D\u4F60\u597D\u4F60\u597D\u4F60\u597D\u4F60\u597D\u4F60\u597D"
+    TypeDelay: 0.2
+    choices:
+    - choice: "\u4F60\u597D\u5440"
+      jumpTo: {fileID: 11400000, guid: c6a1c73c7b57e8d49be871c576f3806e, type: 2}
+    - choice: "\u54C8\u54C8"
+      jumpTo: {fileID: 11400000, guid: 8ac96134df1387c498a48474d8292dad, type: 2}
+    reward:
+      skills: []
+      modifiers: []
+  - speakerName: 
+    line: "\u600E\u4E48\u56DE\u4E8B\uFF1F"
+    TypeDelay: 0.2
+    choices: []
+    reward:
+      skills: []
+      modifiers: []

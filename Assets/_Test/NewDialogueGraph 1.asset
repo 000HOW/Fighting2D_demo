@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049dabe3049691d4a81b2ce4498f98ae, type: 3}
+  m_Name: NewDialogueGraph 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - speakerName: 
+    line: "\u5BF9\u4E0D\u8D77"
+    TypeDelay: 0.2
+    choices: []
+    reward:
+      skills:
+      - {fileID: 11400000, guid: 44be6847030ca1544b559c0662b7b0a0, type: 2}
+      - {fileID: 11400000, guid: efe068e5843888247a2a7945d001670d, type: 2}
+      - {fileID: 11400000, guid: 98713baeb266739488d70d2b43687eb1, type: 2}
+      - {fileID: 11400000, guid: cecc664a3c355f74bbaa568883b8f89e, type: 2}
+      - {fileID: 11400000, guid: 4f48aa4f0c086184abc84bfd2ed64999, type: 2}
+      - {fileID: 11400000, guid: cabaf026a611fc141809163daf4a3c3b, type: 2}
+      modifiers: []

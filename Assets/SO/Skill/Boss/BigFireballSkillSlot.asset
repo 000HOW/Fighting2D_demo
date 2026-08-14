@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61157d3647473ff4d90d63b8f567dea9, type: 3}
+  m_Name: BigFireballSkillSlot
+  m_EditorClassIdentifier: 
+  customStateData: {fileID: 11400000, guid: df5bd41edab660148883d9f5b4bf990f, type: 2}
+  priority: 50
+  cooldown: 3
+  noRepeat: 0
+  requireTarget: 1
+  useMinRange: 4

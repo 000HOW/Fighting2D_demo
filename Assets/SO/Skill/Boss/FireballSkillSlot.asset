@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3908af6c6d25f9419b950b9bb8ee205, type: 3}
+  m_Name: FireballSkillSlot
+  m_EditorClassIdentifier: 
+  customStateData: {fileID: 11400000, guid: 41e8b87010d16b0429d8bf3bf97f211a, type: 2}
+  priority: 50
+  cooldown: 3
+  noRepeat: 0
+  requireTarget: 1
+  useMinRange: 1.5
+  useMaxRange: 6
+  requireFacing: 1
