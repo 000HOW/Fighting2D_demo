@@ -1,5 +1,7 @@
 # Unity 角色控制框架与玩法系统演示
 
+项目讲解视频（含整体架构与系统实现演示）：[【28届unity实习项目】](https://www.bilibili.com/video/BV1twgp6iEsK?vd_source=3f82c1b801f9c1f638c8c4a5f9c1a125)
+
 大家好，我是**问号**，这是我使用 Unity 开发的 demo，项目完全从 0 开始开发了一个月。  
 包含以下系统：
 
